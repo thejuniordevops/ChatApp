@@ -37,7 +37,6 @@ class Home extends React.Component {
                         Actions.chat({
                             nameChat: this.state.name
                         });
-                        // alert(this.state.name);
                     }}
                 >
                     <Text style={styles.buttonText}>
